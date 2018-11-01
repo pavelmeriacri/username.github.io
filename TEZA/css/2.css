@@ -1,0 +1,433 @@
+body {
+	padding: 5px;
+   background-color: green;
+   color: blue;
+}
+
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+.timecolorjs {
+    color: white;
+}
+
+
+
+input {
+    background-color: ;
+    border-color: black;
+    font-family: gotham;
+    padding: 5px;
+    width: 50%;
+}
+
+div.name {
+    padding: 15px;
+    text-align: center;
+    font-weight:bold;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+.date {
+    color: lightblue;
+    text-transform:uppercase;
+    letter-spacing:0.2rem;
+    text-align:center;
+    text-transform: bold;
+    font-family: arial;
+    font-style: italic;
+    
+}
+    
+
+.time {
+    color: lightblue;
+    font-size:16px;
+    text-align: center;
+    font-style:italic;
+
+}
+
+.quote {
+    
+      padding-left:3px;
+    font-size:25px;
+    text-shadow:9px 9px 10px black;
+    text-align: center;
+    text-transform: bold;
+    background-color:gray;
+    color:lightblue;
+  
+}
+
+p {
+    font-size:19px;
+    color: white;
+    font-style; tahoma;
+
+    
+}
+
+hr {
+    color: gray;
+    padding:1px;
+    background-color:gray;
+    box-shadow: 1px 1px 1px white;
+}
+
+h2 {
+   
+    text-align: center;
+       border:3px groove #efefef;
+       color: lightblue;
+ 
+    
+}
+
+h3 {
+    text-align:center;
+    color: white;
+    font-size:14px;
+    margin-top: 2px;
+    color:#4619E1;
+    text-shadow: 2px 2px 23px white;
+}
+
+
+.post {
+    margin-bottom:20px;
+    color: lightblue;
+}
+
+
+.header {
+    background-color:13px solid gray;
+    padding:3px;
+""    width: 100%;
+    text-align: center;
+}
+
+
+ul {
+list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            border-radius: 5px;
+:;         text-decoration: none;
+            text-align: center
+   
+}
+
+
+.script {
+    color: white;
+    
+}
+
+
+#skills img{
+  width: 10%;
+  border-radius: 50%;
+  border: 5px solid #4893CD;
+  margin: 0 2px;
+  transition: ease 1s;
+}
+
+#skills img:hover{
+  width: 11%;
+  transition: ease 1s;
+}
+
+#skills div{
+  text-align: center;
+}
+
+#skills .imgs{
+  text-align: center;
+  margin: auto;
+}
+
+#skills{
+  padding-bottom: 40px;
+}
+
+
+.img-circle {
+   
+    width: 26px;
+    height: 25px;
+
+}
+
+.img-circle2 {
+
+    width: 26px;
+    height: 25px;
+  
+}
+
+
+.fb {
+    text-align: center;
+    color: white;
+    font-size:18px;
+    font-style: bold;
+  
+}
+
+
+
+.tooltip {
+    position: bottom;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 110px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 0;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.green {
+    color:green;
+    font-size:22px;
+    text-shadow:1px 1px lightblue;
+    
+}
+
+
+.codemminded {
+    color:rgba(0,129,236,1.00);
+    font-weight:200;
+    font-size: 24px;
+    font-family: tahoma;    
+    text-shadow: 2px 8px 25px white;
+    text-align:center;
+    
+    
+}
+
+fieldset {
+    border-color: lightblue;
+    border-radius: 19px;
+    border-width: medium;
+    box-sizing:border-box;
+    border-bottom-width: thick;
+    border-top-width:thin;
+    
+
+    
+    
+    
+    
+}
+
+
+
+
+img {
+    width: 150px;
+    height: 100px;
+    margin-top: -1%;
+    border-radius: 10%;
+    border: thin;
+    border-style: double;
+    border-color: white;
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+
+    
+    
+}
+
+
+b {
+    color: lightblue;
+    font-style: bold;
+    
+}
+
+
+#footer
+{
+width:inherit;
+height:auto;
+text-shadow: 1px 0px 10px black;
+color: ;
+text-align:center;
+margin-left: 4%;
+font-size: 10px;
+
+}
+
+
+
+
+.off
+{
+color:white;
+text-shadow: 1px 1px 5px blue;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+
+
+.big {
+  font-size: 30px;
+  color: lightblue;
+  margin-top: -13%;
+
+  font-family: Impact;
+  font-style: italic;
+  padding-right: 15px;
+  text-shadow: 1px 0 8px gray;
+  text-align: center;
+  
+
+}
+
+
+
+/* side nav section */
+
+
+.sidenav{
+    height:100%;
+    width:0;
+    position:fixed;
+    background: black;
+    top:0;
+    left:0;
+    padding-top:50px;
+    transition:0.5s;
+    overflow-x:hidden;
+    
+}
+.sidenav a{
+    display:block;
+    padding:4px 4px 4px 13px;
+    color: lightblue;
+    text-decoration:none;
+    font-size:20px;
+    transition:0.3s;
+}
+.sidenav a:hover{
+    text-shadow:2px 3px 10px blue;
+    color:#eee;
+    letter-spacing:2px;
+}
+.sidenav .closebtn{
+    position:absolute;
+    top:7px;
+    right:25px;
+    font-size:30px;
+    color: lightblue;
+}
+.spn{
+    cursor:pointer;
+    font-size:33px;
+    color: lightblue;
+    
+    
+}
+
+
+
+.horizontal-list {
+    margin-top:15px;
+    padding: 0;
+    list-style-type: none;
+}
+    .horizontal-list li {
+        
+    }
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1px;
+  right: 3px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 9%;
+  font-style: bold;
+}
+
+#myBtn:hover {
+  background-color: blue;
+}
+
+
+
+
+@keyframes glow {
+    from {
+        filter: blur(0.3px);
+        color: lightblue;
+        text-shadow: 0 0 5px #FFF;
+    }
+    to {
+        filter: blur(0.5px);
+        color: blue;
+        text-shadow: 0 0 50px #FFF;
+    }
+}
+
+
+#glowing {
+
+    
+    font-family: gotham;
+    display: inline  ;
+    align-items: center;
+    justify-content: center ;
+    animation-name: glow;
+    animation-duration: 1500ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: ;
+    animation-direction: alternate;
+}
+
+
